@@ -1,0 +1,30 @@
+﻿<Window
+    x:Class="LegendaryLayoutChallenge.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LegendaryLayoutChallenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,10,0,10">
+        <TextBlock x:ConnectionId='2' x:Name="Title" Text="Lorem Ipsum" FontSize="48" FontWeight="Bold"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock x:ConnectionId='3' x:Name="LeftText"  TextWrapping="Wrap" Width="250" Margin="0,10,0,0" Text="Lorem ipsum dolor sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst. Donec sed elementum odio. Nunc ac sollicitudin ex. Morbi vehicula sit amet justo sed ornare. Praesent posuere vehicula congue. In aliquet turpis non metus varius, in eleifend nunc tempor. Vivamus quis viverra nisl. Maecenas consequat hendrerit ex, id vehicula ipsum lobortis nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis vehicula odio nibh, ac interdum justo gravida in. In commodo nibh at sollicitudin lacinia. Vestibulum at ullamcorper est, ut varius massa. Fusce at lacus tellus. Ut tincidunt blandit dui, quis scelerisque metus blandit et."/>
+            <TextBlock x:ConnectionId='4' x:Name="RigtText" TextWrapping="Wrap" Width="500" Margin="20,10,0,0" Text = "Aenean lacinia lorem tortor, quis dignissim quam blandit vitae. Maecenas eleifend fermentum dolor, sed dictum nibh lacinia ut. Duis eleifend libero felis, in luctus est ullamcorper nec. Ut tempor odio vitae enim efficitur porttitor. Integer nec lacus purus. Sed diam quam, finibus vel nisl nec, tempor fringilla eros. Suspendisse potenti. Sed molestie sapien et sapien malesuada, eu efficitur arcu aliquet. Morbi vehicula at sapien et sagittis. Praesent ac molestie felis, eget cursus nibh.
+
+Donec viverra efficitur ante, nec feugiat erat ultrices eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque molestie lectus et maximus fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque lectus orci, semper id sem eu, ultricies commodo nisl. Integer sit amet risus nibh. Integer id quam at orci tincidunt vestibulum. Suspendisse congue non arcu nec ornare. Suspendisse ut felis nulla. Vivamus vulputate arcu ex, eu posuere nunc eleifend sed. Nam facilisis libero id imperdiet malesuada."/>
+            
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="20,10,0,0">
+                <Rectangle Fill="Blue" Height="150" Width="150"/>
+                <StackPanel>
+                    <Rectangle Fill="Red" Height="75" Width="100" VerticalAlignment="Top"/>
+                    <Rectangle Fill="Yellow" Height="75" Width="100"/>
+                </StackPanel>
+                
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
+
